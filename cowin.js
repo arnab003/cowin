@@ -6,12 +6,7 @@
   const requestInterval = 15000;
   const minAgeLimit = 18;
 
-  const date = new Date()
-    .toISOString()
-    .replace(/T.*/, "")
-    .split("-")
-    .reverse()
-    .join("-");
+  const date = new Date().toLocaleDateString("en-GB").replaceAll("/", "-");
 
   const beep = () => {
     const snd = new Audio(
