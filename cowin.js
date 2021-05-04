@@ -3,7 +3,7 @@
   const districtId = "265"; // blr urban
   // const districtId = "725"; // kolkata
   // const districtId = "504"; // udaipur
-  const requestInterval = 15000;
+  const requestInterval = 30000;
   const minAgeLimit = 18;
 
   const date = new Date().toLocaleDateString("en-GB").replaceAll("/", "-");
