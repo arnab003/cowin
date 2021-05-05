@@ -1,7 +1,7 @@
 (function () {
   // Configuration
-  const districtId = "265"; // blr urban
-  // const districtId = "725"; // kolkata
+  // const districtId = "265"; // blr urban
+  const districtId = "725"; // kolkata
   // const districtId = "504"; // udaipur
   const requestInterval = 30000;
   const minAgeLimit = 18;
